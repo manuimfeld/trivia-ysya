@@ -12,14 +12,11 @@ const PlayTrivia = () => {
 /* cada vez que se suma un punto, vuelve a llamar a la función y así genera un video aleatorio nuevo
 */
 
-/* variables globales */
-
   useEffect(() => {
     if (indexVideo.length === 0) {
       setIndexVideo(video)
     } else {
       getRandomVideo()
-      setIndexVideo(indexVideo.concat(video))
     }
   // eslint-disable-next-line
   }, [points]);
@@ -28,11 +25,7 @@ const PlayTrivia = () => {
   const getRandomVideo = () => {
     let newVideoList = videos.filter(videoList => !indexVideo.includes(videoList))
     setVideo([(newVideoList[Math.floor(Math.random() * newVideoList.length)])])
-      añ()
-  }
-
-  const añ = () => {
-    return console.log(video)
+    setIndexVideo(indexVideo.concat(video))
   }
 
 /* funcion para mostrar el video, ocultarlo, sumar puntos y reiniciar useEffect*/
