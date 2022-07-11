@@ -13,10 +13,10 @@
         "id": "isPgsoDpibc",
         "title": "SETEADO FEAT FRANUX BB",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "PARA SACARMELO"},
             {"a": "SETEADO FEAT FRANUX BB"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "CASI UN G"},
+            {"a": "MUEVELO FEAT MARCIANO'S CREW"}
         ]
     },
     {
@@ -25,18 +25,18 @@
         "options": [
             {"a": "POR QUÉ?"},
             {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "TRAJE UNOS TANGOS"},
+            {"a": "TAMO LOCO"}
         ]
     },
     {
         "id": "y5j_kbIaLZk",
         "title": "UNA DOSIS FEAT SIXTO YEGROS",
         "options": [
-            {"a": "ORO Y PLATINO"},
-            {"a": "INFINITO AL DOBLE"},
+            {"a": "UN FLOW DE INFARTO"},
+            {"a": "UNA DOSIS FEAT SIXTO YEGROS"},
             {"a": "HIDRO"},
-            {"a": "UNA DOSIS FEAT SIXTO YEGROS"}
+            {"a": "ORO Y PLATINO"}
         ]
     },
     {
@@ -53,30 +53,30 @@
         "id": "L_9QATIybro",
         "title": "OTRA NOCHE FEAT PANTHER",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"},
             {"a": "OTRA NOCHE FEAT PANTHER"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "BUENOS AIRES ES AMOR"},
+            {"a": "HIDRO"}
         ]
     },
     {
         "id": "NTAInjIth6k",
         "title": "ACA NO SE SALVA NINGUNO FEAT OBIE WANSHOT",
         "options": [
-            {"a": "ORO Y PLATINO"},
-            {"a": "INFINITO AL DOBLE"},
+            {"a": "MUEVELO FEAT MARCIANO'S CREW"},
+            {"a": "DE CASA EN CASA FEAT BHAVI"},
             {"a": "ACA NO SE SALVA NINGUNO FEAT OBIE WANSHOT"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "EN EL INFIERNO NO LOS VI FEAT EL DOCTOR"}
         ]
     },
     {
         "id": "VpYdaOho0Nw",
         "title": "EN LA JUNGLA",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "DOS CAJAS DE GLOBO"},
             {"a": "EN LA JUNGLA"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "ENAMORADA DEL DIABLO FEAT NEO PISTEA"},
+            {"a": "PASA QUE YO"}
         ]
     },
     {
@@ -93,19 +93,19 @@
         "id": "3SQwoSYXqFw",
         "title": "COMO LO COME",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "PARA SACARMELO"},
             {"a": "COMO LO COME"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "CASI UN G"},
+            {"a": "TODO AUTOMATICO FEAT AKAPELLAH, NEUTRO SHORTY"}
         ]
     },
     {
         "id": "aWMbDHDNh5A",
         "title": "MI AMIGA LA ASESINA",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "CALOR"},
             {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
+            {"a": "ORO Y PLATINO"},
             {"a": "MI AMIGA LA ASESINA"}
         ]
     },
@@ -113,29 +113,29 @@
         "id": "kWk3CYCpLPI",
         "title": "INSPIRACION DIVINA",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "TANTAS TENTACIONES"},
             {"a": "INFINITO AL DOBLE"},
             {"a": "INSPIRACION DIVINA"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "NO HOOK FEAT SIXTO YEGROS, HIT BOY"}
         ]
     },
     {
         "id": "tdtKoiuWEcM",
         "title": "DE CASA EN CASA FEAT BHAVI",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "EL AMANECER"},
             {"a": "DE CASA EN CASA FEAT BHAVI"},
             {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "GUAPO FEAT DUKI, KAKTOV, C.R.O, NEO PISTEA"}
         ]
     },
     {
         "id": "cuvA7LYDq6g",
         "title": "SEA LA HORA QUE SEA",
         "options": [
-            {"a": "ORO Y PLATINO"},
-            {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
+            {"a": "SIN CONEXIÓN FEAT BHAVI"},
+            {"a": "ROLA ROLA"},
+            {"a": "PERDAMONO"},
             {"a": "SEA LA HORA QUE SEA"}
         ]
     },
@@ -153,9 +153,9 @@
         "id": "0pVda8qDQ7w",
         "title": "EN EL INFIERNO NO LOS VI FEAT EL DOCTOR",
         "options": [
-            {"a": "ORO Y PLATINO"},
-            {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
+            {"a": "LA PRIMERA VEZ"},
+            {"a": "TARDE"},
+            {"a": "TRAP ON THE ROCKS"},
             {"a": "EN EL INFIERNO NO LOS VI FEAT EL DOCTOR"}
         ]
     },
@@ -164,19 +164,19 @@
         "title": "NO HOOK FEAT SIXTO YEGROS, HIT BOY",
         "options": [
             {"a": "NO HOOK FEAT SIXTO YEGROS, HIT BOY"},
-            {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "TRAGOS FUERTES FEAT OBIE WANSHOT"},
+            {"a": "ACELERA2 FEAT SIXTO YEGROS"},
+            {"a": "UNA LUZ EN TODO ESTO"}
         ]
     },
     {
         "id": "4hBiuuILEbQ",
         "title": "QUE DESVELO",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "VUELTA A LA LUNA REMIX FEAT DUKI, NEO PISTEA"},
             {"a": "QUE DESVELO"},
             {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "EN LA JUNGLA"}
         ]
     },
     {
@@ -184,8 +184,8 @@
         "title": "INOLVIDABLE FEAT ALEMAN, PABLO CHILL-E",
         "options": [
             {"a": "INOLVIDABLE FEAT ALEMAN, PABLO CHILL-E"},
-            {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
+            {"a": "PASTEL CON NUTELLA"},
+            {"a": "VUELTA A LA LUNA FEAT DUKI"},
             {"a": "ACELERA2 FEAT SIXTO YEGROS"}
         ]
     },
@@ -193,9 +193,9 @@
         "id": "SgOE-tYKIB0",
         "title": "TODO AUTOMATICO FEAT AKAPELLAH, NEUTRO SHORTY",
         "options": [
-            {"a": "ORO Y PLATINO"},
-            {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
+            {"a": "EN EL INFIERNO NO LOS VI FEAT EL DOCTOR"},
+            {"a": "GUAPO FEAT DUKI, KAKTOV, C.R.O, NEO PISTEA"},
+            {"a": "SETEADO FEAT FRANUX BB"},
             {"a": "TODO AUTOMATICO FEAT AKAPELLAH, NEUTRO SHORTY"}
         ]
     },
@@ -203,20 +203,20 @@
         "id": "b8rLZPuaDPs",
         "title": "TRAP ON THE ROCKS",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "TRAJE UNOS TANGOS"},
             {"a": "TRAP ON THE ROCKS"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "TRAP DE VERDAD"},
+            {"a": "EN LA TRAMPA"}
         ]
     },
     {
         "id": "AieLWTNHzMo",
         "title": "TRAP DE VERDAD",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "DE CASA EN CASA FEAT BHAVI"},
             {"a": "TRAP DE VERDAD"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "MUEVELO FEAT MARCIANO'S CREW"},
+            {"a": "HIDRO"}
         ]
     },
     {
@@ -225,47 +225,47 @@
         "options": [
             {"a": "INFINITO AL DOBLE"},
             {"a": "UNA LUZ EN TODO ESTO"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "TRAJE UNOS TANGOS"},
+            {"a": "SILBANDO"}
         ]
     },
     {
         "id": "vxC1SERzfkY",
         "title": "UNA LUZ EN TODO ESTO",
         "options": [
-            {"a": "ORO Y PLATINO"},
-            {"a": "INFINITO AL DOBLE"},
+            {"a": "UNA LUZ EN TODO ESTO"},
+            {"a": "MORDIENDO EL BOZAL"},
             {"a": "HIDRO"},
-            {"a": "UNA LUZ EN TODO ESTO"}
+            {"a": "ACA NO SE SALVA NINGUNO FEAT OBIE WANSHOT"}
         ]
     },
     {
         "id": "0pumekjV1eI",
         "title": "SURFEANDO EL TSUNAMI",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "UN FLOW DE INFARTO"},
             {"a": "SURFEANDO EL TSUNAMI"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "SEA LA HORA QUE SEA"},
+            {"a": "OTRA NOCHE FEAT PANTHER"}
         ]
     },
     {
         "id": "NQ3UDn6ImKg",
         "title": "EN LA TRAMPA",
         "options": [
-            {"a": "ORO Y PLATINO"},
-            {"a": "INFINITO AL DOBLE"},
+            {"a": "TRAP DE VERDAD"},
+            {"a": "TRAP ON THE ROCKS"},
             {"a": "EN LA TRAMPA"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "TARDE"}
         ]
     },
     {
         "id": "Avwew04vdxs",
         "title": "MORDIENDO EL BOZAL",
         "options": [
-            {"a": "ORO Y PLATINO"},
-            {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
+            {"a": "TARDE"},
+            {"a": "LA PRIMERA VEZ"},
+            {"a": "PERDAMONO"},
             {"a": "MORDIENDO EL BOZAL"}
         ]
     },
@@ -274,16 +274,16 @@
         "title": "PERDAMONO",
         "options": [
             {"a": "PERDAMONO"},
-            {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "TARDE"},
+            {"a": "VAMO A DARLE"},
+            {"a": "LA PRIMERA VEZ"}
         ]
     },
     {
         "id": "7NSnb2zYE_A",
         "title": "SOBRE EL AGUA",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "TARDE"},
             {"a": "INFINITO AL DOBLE"},
             {"a": "SOBRE EL AGUA"},
             {"a": "ACELERA2 FEAT SIXTO YEGROS"}
@@ -294,29 +294,429 @@
         "title": "TARDE",
         "options": [
             {"a": "TARDE"},
-            {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "UN FLOW DE INFARTO"},
+            {"a": "OTRA NOCHE FEAT PANTHER"},
+            {"a": "INSPIRACION DIVINA"}
         ]
     },
     {
         "id": "phSKxUDSyCE",
         "title": "SACARTE TO'",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "ROLA ROLA"},
             {"a": "SACARTE TO'"},
-            {"a": "HIDRO"},
-            {"a": "ACELERA2 FEAT SIXTO YEGROS"}
+            {"a": "GUAPO FEAT DUKI, KAKTOV, C.R.O, NEO PISTEA"},
+            {"a": "NO HOOK FEAT SIXTO YEGROS, HIT BOY"}
         ]
     },
     {
         "id": "B4g2w1Ssy6M",
         "title": "LA PRIMERA VEZ",
         "options": [
-            {"a": "ORO Y PLATINO"},
+            {"a": "NO SÉ FEAT DUKI"},
             {"a": "INFINITO AL DOBLE"},
-            {"a": "HIDRO"},
+            {"a": "CASI UN G"},
             {"a": "LA PRIMERA VEZ"}
+        ]
+    },
+    {
+        "id": "mLUZel-6p-g",
+        "title": "UN FLOW DE INFARTO",
+        "options": [
+            {"a": "FULL ICE"},
+            {"a": "INFINITO AL DOBLE"},
+            {"a": "SALGO A CAZAR"},
+            {"a": "UN FLOW DE INFARTO"}
+        ]
+    },
+    {
+        "id": "-10ZXMMc4x4",
+        "title": "SILBANDO",
+        "options": [
+            {"a": "TRAGOS FUERTES FEAT OBIE WANSHOT"},
+            {"a": "SILBANDO"},
+            {"a": "MUEVELO FEAT MARCIANO'S CREW"},
+            {"a": "UN FLOW DE INFARTO"}
+        ]
+    },
+    {
+        "id": "DeE8gnjfsrA",
+        "title": "PASA QUE YO",
+        "options": [
+            {"a": "UN FLOW DE INFARTO"},
+            {"a": "PASA QUE YO"},
+            {"a": "DOS CAJAS DE GLOBO"},
+            {"a": "LA PRIMERA VEZ"}
+        ]
+    },
+    {
+        "id": "TxFQDwWlRoM",
+        "title": "IGUALITO A TU PADRE",
+        "options": [
+            {"a": "IGUALITO A TU PADRE"},
+            {"a": "PASA QUE YO"},
+            {"a": "INFINITO AL DOBLE"},
+            {"a": "HIDRO"}
+        ]
+    },
+    {
+        "id": "6km61wrAomM",
+        "title": "DOS CAJAS DE GLOBO",
+        "options": [
+            {"a": "ORO Y PLATINO"},
+            {"a": "DOS CAJAS DE GLOBO"},
+            {"a": "POR QUÉ?"},
+            {"a": "LA PRIMERA VEZ"}
+        ]
+    },
+    {
+        "id": "f-F4O0XmS7A",
+        "title": "DE LA CIUDAD DEL TANGO",
+        "options": [
+            {"a": "VUELTA A LA LUNA REMIX FEAT DUKI, NEO PISTEA"},
+            {"a": "DE LA CIUDAD DEL TANGO"},
+            {"a": "ENAMORADA DEL DIABLO FEAT NEO PISTEA"},
+            {"a": "GUAPO FEAT DUKI, KAKTOV, C.R.O, NEO PISTEA"}
+        ]
+    },
+    {
+        "id": "VVPgs_MDSoI",
+        "title": "UNA DE DOS",
+        "options": [
+            {"a": "UNA DE DOS"},
+            {"a": "EN EL INFIERNO NO LOS VI FEAT EL DOCTOR"},
+            {"a": "PASTEL CON NUTELLA"},
+            {"a": "MI AMIGA LA ASESINA"}
+        ]
+    },
+    {
+        "id": "xlHJ2gF7RA4",
+        "title": "SIN CONEXIÓN FEAT BHAVI",
+        "options": [
+            {"a": "TANTAS TENTACIONES"},
+            {"a": "GUAPO FEAT DUKI, KAKTOV, C.R.O, NEO PISTEA"},
+            {"a": "ORO Y PLATINO"},
+            {"a": "SIN CONEXIÓN FEAT BHAVI"}
+        ]
+    },
+    {
+        "id": "_lnrZJF9XJQ",
+        "title": "QUIERE COMER FEAT KHEA",
+        "options": [
+            {"a": "BUENOS AIRES ES AMOR"},
+            {"a": "QUIERE COMER FEAT KHEA"},
+            {"a": "BARDOS Y VERDADES"},
+            {"a": "LA PRIMERA VEZ"}
+        ]
+    },
+    {
+        "id": "Z1DrZfAf-tQ",
+        "title": "CALOR REMIX FEAT DUKI, SHAINNY",
+        "options": [
+            {"a": "UN FLOW DE INFARTO"},
+            {"a": "SOBRE EL AGUA"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"},
+            {"a": "SEA LA HORA QUE SEA"}
+        ]
+    },
+    {
+        "id": "TvQ69BxZBJM",
+        "title": "COMO TIENE QUE SER",
+        "options": [
+            {"a": "UNA DE DOS"},
+            {"a": "COMO TIENE QUE SER"},
+            {"a": "LINAJE"},
+            {"a": "TAMO LOCO"}
+        ]
+    },
+    {
+        "id": "uKPNMTy5DRM",
+        "title": "CALOR",
+        "options": [
+            {"a": "TANTAS TENTACIONES"},
+            {"a": "INFINITO AL DOBLE"},
+            {"a": "CALOR"},
+            {"a": "SETEADO FEAT FRANUX BB"}
+        ]
+    },
+    {
+        "id": "W0AJKOV7dvA",
+        "title": "NEGOCIANDO POR TIEMPO",
+        "options": [
+            {"a": "SOBRE EL AGUA"},
+            {"a": "NEGOCIANDO POR TIEMPO"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"},
+            {"a": "PASTEL CON NUTELLA"}
+        ]
+    },
+    {
+        "id": "fv3VNI5h4w0",
+        "title": "DONDE LAS LUCES",
+        "options": [
+            {"a": "DONDE LAS LUCES"},
+            {"a": "DAME DROGA"},
+            {"a": "OTRA NOCHE FEAT PANTHER"},
+            {"a": "DESFILAR MIS PENAS"}
+        ]
+    },
+    {
+        "id": "OSIDLrC5wb4",
+        "title": "BARDOS Y VERDADES",
+        "options": [
+            {"a": "TARDE"},
+            {"a": "DESFILAR MIS PENAS"},
+            {"a": "BARDOS Y VERDADES"},
+            {"a": "LA PRIMERA VEZ"}
+        ]
+    },
+    {
+        "id": "cnjABq4wuZE",
+        "title": "TANTAS TENTACIONES",
+        "options": [
+            {"a": "TRAGOS FUERTES FEAT OBIE WANSHOT"},
+            {"a": "ACA NO SE SALVA NINGUNO FEAT OBIE WANSHOT"},
+            {"a": "EL AMANECER"},
+            {"a": "TANTAS TENTACIONES"}
+        ]
+    },
+    {
+        "id": "GyVvuoQrrBg",
+        "title": "FULL ICE",
+        "options": [
+            {"a": "NEGOCIANDO POR TIEMPO"},
+            {"a": "FULL ICE"},
+            {"a": "HIDRO"},
+            {"a": "TODO AUTOMATICO FEAT AKAPELLAH, NEUTRO SHORTY"}
+        ]
+    },
+    {
+        "id": "-uvL3gCjyt8",
+        "title": "BUENOS AIRES ES AMOR",
+        "options": [
+            {"a": "MUEVELO FEAT MARCIANO'S CREW"},
+            {"a": "VUELTA A LA LUNA REMIX FEAT DUKI, NEO PISTEA"},
+            {"a": "BUENOS AIRES ES AMOR"},
+            {"a": "VUELTA A LA LUNA FEAT DUKI"}
+        ]
+    },
+    {
+        "id": "1qSIGkoPl-k",
+        "title": "DESFILAR MIS PENAS",
+        "options": [
+            {"a": "DESFILAR MIS PENAS"},
+            {"a": "INFINITO AL DOBLE"},
+            {"a": "TRAJE UNOS TANGOS"},
+            {"a": "UNA DE DOS"}
+        ]
+    },
+    {
+        "id": "CIA82heBoqA",
+        "title": "ALMA",
+        "options": [
+            {"a": "ALMA"},
+            {"a": "LINAJE"},
+            {"a": "INOLVIDABLE FEAT ALEMAN, PABLO CHILL-E"},
+            {"a": "ORO Y PLATINO"}
+        ]
+    },
+    {
+        "id": "eb0ZoHw4YKA",
+        "title": "PARA SACARMELO",
+        "options": [
+            {"a": "ORO Y PLATINO"},
+            {"a": "PARA SACARMELO"},
+            {"a": "SACARTE TO'"},
+            {"a": "NO HOOK FEAT SIXTO YEGROS, HIT BOY"}
+        ]
+    },
+    {
+        "id": "U7eZ1gvRuuA",
+        "title": "TRAJE UNOS TANGOS",
+        "options": [
+            {"a": "TRAJE UNOS TANGOS"},
+            {"a": "PARA SACARMELO"},
+            {"a": "TODO AUTOMATICO FEAT AKAPELLAH, NEUTRO SHORTY"},
+            {"a": "MORDIENDO EL BOZAL"}
+        ]
+    },
+    {
+        "id": "8YVI6IKHLjo",
+        "title": "TODO DE ORO",
+        "options": [
+            {"a": "ORO Y PLATINO"},
+            {"a": "CASI UN G"},
+            {"a": "ROLA ROLA"},
+            {"a": "TODO DE ORO"}
+        ]
+    },
+    {
+        "id": "oztk8ha_EEo",
+        "title": "VUELTA A LA LUNA REMIX FEAT DUKI, NEO PISTEA",
+        "options": [
+            {"a": "MUEVELO FEAT MARCIANO'S CREW"},
+            {"a": "PARA SACARMELO"},
+            {"a": "VUELTA A LA LUNA REMIX FEAT DUKI, NEO PISTEA"},
+            {"a": "MI AMIGA LA ASESINA"}
+        ]
+    },
+    {
+        "id": "NxvXnLIf--I",
+        "title": "TAMO LOCO",
+        "options": [
+            {"a": "SALGO A CAZAR"},
+            {"a": "TAMO LOCO"},
+            {"a": "LA PRIMERA VEZ"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"}
+        ]
+    },
+    {
+        "id": "WMZchXEy9nA",
+        "title": "MUEVELO FEAT MARCIANO'S CREW",
+        "options": [
+            {"a": "NO HOOK FEAT SIXTO YEGROS, HIT BOY"},
+            {"a": "ALMA"},
+            {"a": "MUEVELO FEAT MARCIANO'S CREW"},
+            {"a": "MI AMIGA LA ASESINA"}
+        ]
+    },
+    {
+        "id": "3z4xVMDBduE",
+        "title": "LINAJE",
+        "options": [
+            {"a": "PASTEL CON NUTELLA"},
+            {"a": "LINAJE"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"},
+            {"a": "SOBRE EL AGUA"}
+        ]
+    },
+    {
+        "id": "-hbLmqzUUFU",
+        "title": "ENAMORADA DEL DIABLO FEAT NEO PISTEA",
+        "options": [
+            {"a": "VUELTA A LA LUNA REMIX FEAT DUKI, NEO PISTEA"},
+            {"a": "TRAGOS FUERTES FEAT OBIE WANSHOT"},
+            {"a": "GUAPO FEAT DUKI, KAKTOV, C.R.O, NEO PISTEA"},
+            {"a": "ENAMORADA DEL DIABLO FEAT NEO PISTEA"}
+        ]
+    },
+    {
+        "id": "PQLwBgawdlA",
+        "title": "TRAGOS FUERTES FEAT OBIE WANSHOT",
+        "options": [
+            {"a": "TRAGOS FUERTES FEAT OBIE WANSHOT"},
+            {"a": "PARA SACARMELO"},
+            {"a": "ACA NO SE SALVA NINGUNO FEAT OBIE WANSHOT"},
+            {"a": "LINAJE"}
+        ]
+    },
+    {
+        "id": "rwABH_Vg6EQ",
+        "title": "NO SÉ FEAT DUKI",
+        "options": [
+            {"a": "NO SÉ FEAT DUKI"},
+            {"a": "NO HOOK FEAT SIXTO YEGROS, HIT BOY"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"},
+            {"a": "DAME DROGA"}
+        ]
+    },
+    {
+        "id": "qrpMmwWLmNo",
+        "title": "VUELTA A LA LUNA FEAT DUKI",
+        "options": [
+            {"a": "DOS CAJAS DE GLOBO"},
+            {"a": "PARA SACARMELO"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"},
+            {"a": "VUELTA A LA LUNA FEAT DUKI"}
+        ]
+    },
+    {
+        "id": "w_ufjahQlyw",
+        "title": "EL AMANECER",
+        "options": [
+            {"a": "EL AMANECER"},
+            {"a": "PARA SACARMELO"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"},
+            {"a": "IGUALITO A TU PADRE"}
+        ]
+    },
+    {
+        "id": "9t0uuaZfy-s",
+        "title": "HIDRO",
+        "options": [
+            {"a": "HIDRO"},
+            {"a": "PARA SACARMELO"},
+            {"a": "NEGOCIANDO POR TIEMPO"},
+            {"a": "LA PRIMERA VEZ"}
+        ]
+    },
+    {
+        "id": "zbyhx5_tk0o",
+        "title": "VAMO A DARLE",
+        "options": [
+            {"a": "VAMO A DARLE"},
+            {"a": "EL AMANECER"},
+            {"a": "CASI UN G"},
+            {"a": "ROLA ROLA"}
+        ]
+    },
+    {
+        "id": "aFwwQwmb_zc",
+        "title": "ROLA ROLA",
+        "options": [
+            {"a": "ORO Y PLATINO"},
+            {"a": "ROLA ROLA"},
+            {"a": "DOS CAJAS DE GLOBO"},
+            {"a": "QUE DESVELO"}
+        ]
+    },
+    {
+        "id": "OLVxLclxTEI",
+        "title": "CASI UN G",
+        "options": [
+            {"a": "PASA QUE YO"},
+            {"a": "CASI UN G"},
+            {"a": "TRAP DE VERDAD"},
+            {"a": "COMO TIENE QUE SER"}
+        ]
+    },
+    {
+        "id": "d_jK0-zzg50",
+        "title": "SALGO A CAZAR",
+        "options": [
+            {"a": "SALGO A CAZAR"},
+            {"a": "COMO TIENE QUE SER"},
+            {"a": "ORO Y PLATINO"},
+            {"a": "LA PRIMERA VEZ"}
+        ]
+    },
+    {
+        "id": "vaYldbohGRY&",
+        "title": "PASTEL CON NUTELLA",
+        "options": [
+            {"a": "SALGO A CAZAR"},
+            {"a": "ROLA ROLA"},
+            {"a": "PASTEL CON NUTELLA"},
+            {"a": "LA PRIMERA VEZ"}
+        ]
+    },
+    {
+        "id": "CJ3iDOtidcM",
+        "title": "GUAPO FEAT DUKI, KAKTOV, C.R.O, NEO PISTEA",
+        "options": [
+            {"a": "SALGO A CAZAR"},
+            {"a": "TRAGOS FUERTES FEAT OBIE WANSHOT"},
+            {"a": "CALOR REMIX FEAT DUKI, SHAINNY"},
+            {"a": "GUAPO FEAT DUKI, KAKTOV, C.R.O, NEO PISTEA"}
+        ]
+    },
+    {
+        "id": "kwfXCjgCOh8",
+        "title": "DAME DROGA",
+        "options": [
+            {"a": "SALGO A CAZAR"},
+            {"a": "DAME DROGA"},
+            {"a": "DOS CAJAS DE GLOBO"},
+            {"a": "TAMO LOCO"}
         ]
     }
 ]

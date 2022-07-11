@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import videos from '../videos.json'
 import '../App.css'
+import EndGame from './EndGame'
 
 const PlayTrivia = () => {
 
@@ -21,11 +22,15 @@ const PlayTrivia = () => {
   // eslint-disable-next-line
   }, [points]);
 
+  useEffect(() => {
+    setIndexVideo(indexVideo.concat(video))
+  // eslint-disable-next-line
+  }, [video])
+
 /* funcion para elegir un video aleatorio y no repetirlo */
   const getRandomVideo = () => {
     let newVideoList = videos.filter(videoList => !indexVideo.includes(videoList))
     setVideo([(newVideoList[Math.floor(Math.random() * newVideoList.length)])])
-    setIndexVideo(indexVideo.concat(video))
   }
 
 /* funcion para mostrar el video, ocultarlo, sumar puntos y reiniciar useEffect*/
@@ -45,8 +50,7 @@ const PlayTrivia = () => {
   return (
     <>
     {
-    (video.length <= 0) ? 
-    <p>AÑA</p> : 
+    (indexVideo.length < 72) ?
     <div className="trivia-menu">
       <iframe width="500" height="250" src={"https://www.youtube.com/embed/" + video[0].id +"?controls=0&autoplay=1&mute=0&showinfo=0"} title="YSY A - PASTEL CON NUTELLA (Video Oficial)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       {/*  <div className="video-hide"></div> */}
@@ -58,8 +62,9 @@ const PlayTrivia = () => {
             })}
       </div>
       <p className='points'>Le pegaste a {points} canciones</p>
-    </div>
-    }
+    </div> :
+    <EndGame />
+  }
     </>
   )
 }
