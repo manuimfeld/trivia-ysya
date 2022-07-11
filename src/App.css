@@ -1,31 +1,7 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +11,107 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*------ PAGE -------*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  font-family: "PT Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home::before {
+  content: "";
+      background-image: url(https://i.ytimg.com/vi/MzmXrH1_ipM/maxresdefault.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+
+.trivia-menu {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trivia-menu h1 {
+  color: white;
+}
+
+.trivia-menu button {
+  width: 10%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 20px;
+  font-weight: 700;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  background: rgb(99, 99, 99);
+  color: orange;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 300ms;
+}
+
+.trivia-menu button:hover {
+  transform: scale(1.1);
+  background: greenyellow;
+}
+
+.trivia-menu .video-hide {
+  height: 200px;
+  width: 70%;
+  position: relative;
+  background: black;
+  top: -200px;
+  bottom: 0;
+  border: 1px solid white;
+  transition: all 300ms;
+}
+
+.trivia-menu .options {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.trivia-menu .options button {
+  width: auto;
+  height: 40px;
+  margin: 10px 10px;
+  text-transform: uppercase;
+}
+
+.options button {
+  flex: 1 1 40%;
+}
+
+.points {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 800;
+  color: orange;
+  padding: 0;
+  margin: 0;
 }
