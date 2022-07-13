@@ -1,17 +1,14 @@
-import React, { useState } from 'react'
-import PlayTrivia from './PlayTrivia'
+import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const TriviaMenu = () => {
 
-  const [trivia, setTrivia] = useState(false)
-
   return (
-    (trivia !== true) ?
         <div className="trivia-menu">
-            <h1>¿Cuanto sabes de Ysy A?</h1>
-            <button onClick={() => setTrivia(true)}>Empezar</button>
-        </div> :
-        <PlayTrivia />
+            <h1>¿Cuantas canciones conoces?</h1>
+            <Link to="/trivia"><button className='play'>Jugar</button></Link>
+        </div>
   )
 }
 

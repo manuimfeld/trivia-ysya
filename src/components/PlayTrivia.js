@@ -1,16 +1,19 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import videos from '../videos.json'
 import '../App.css'
-import EndGame from './EndGame'
+import { Navigate } from 'react-router-dom'
+import { CorrectAnswersContext } from '../context/CorrectAnswersContext'
+import { IndexVideoContext } from '../context/IndexVideoContext'
 
 const PlayTrivia = () => {
 
   const [video, setVideo] = useState([(videos[Math.floor(Math.random() * videos.length)])])
   const [points, setPoints] = useState(0)
-  const [indexVideo, setIndexVideo] = useState([])
+  const {indexVideo, setIndexVideo} = useContext(IndexVideoContext)
   const [counter, setCounter] = useState(10)
   const [areDisabled, setAreDisabled] = useState(false)
   const [answer, setAnswer] = useState(false)
+  const {correctAnswers, setCorrectAnswers} = useContext(CorrectAnswersContext)
 
 /* cuando arranca el componente, llama a la funcion getRandomVideo
 /* cada vez que se suma un punto, vuelve a llamar a la función y así genera un video aleatorio nuevo
@@ -18,8 +21,6 @@ const PlayTrivia = () => {
 
 /* VARIABLES GLOBALES */
 let videoHide = document.getElementsByClassName('video-hide')[0]
-let buttonAnswer = document.getElementsByClassName('button-answer')
-
 
 /* CONTADOR */
 useEffect(() => {
@@ -64,13 +65,14 @@ const handleOptionClick = (e) => {
   if (e === video[0].title) {
     setAnswer(true)
     setCounter(0)
+    setCorrectAnswers(correctAnswers + 1)
     setTimeout(() => {
       videoHide.style.background = 'black'
       setAreDisabled(false);
       setPoints(points + 1)
       setCounter(10)
       setAnswer(false)
-    }, 3000)
+    }, 5000)
   } else {
     setAnswer(false)
     setCounter(0)
@@ -79,6 +81,7 @@ const handleOptionClick = (e) => {
 
   return (
     <>
+    <div className="home">
     {
     (indexVideo.length < 12) ?
     <div className="trivia-menu">
@@ -86,6 +89,7 @@ const handleOptionClick = (e) => {
       <iframe width="500" height="250" src={"https://www.youtube.com/embed/" + video[0].id +"?controls=0&autoplay=1&mute=0&showinfo=0"} title="YSY A - PASTEL CON NUTELLA (Video Oficial)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       <div className="video-hide"></div>
       </div>
+      <p className='points'>{points}/11</p>
       <div className="options">
             {video[0].options.map((option) => {
               return (
@@ -93,22 +97,25 @@ const handleOptionClick = (e) => {
               )
             })}
       </div>
-      <p className='points'>{points}/11</p>
       {!areDisabled ? (
         <p className='counter'>{counter}</p> )
          : (areDisabled === true && answer !== true) ? (
+        <>
+        <p className='answer-incorrect'>Le pifeaste pa :(</p>
         <button className="button-continue" onClick={() => {
           videoHide.style.background = 'black'
           setCounter(10);
           setAreDisabled(false);
-          setPoints(points + 1);
-        }}>Continuar</button> 
-      ) : (areDisabled === true && answer === true) ? (
-        <p>Nice</p>
-      ) : null}
+          setPoints(points + 1);}}>
+          Continuar
+          </button> </>)
+      : (areDisabled === true && answer === true) ? (
+        <p className='answer-correct'>¡Bien! +1</p> )
+      : null}
     </div> :
-    <EndGame />
+    <Navigate to="/puntos" />
   }
+  </div>
     </>
   )
 }

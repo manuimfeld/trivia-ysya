@@ -87,14 +87,18 @@ iframe {
   font-weight: 700;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
-  background: rgb(99, 99, 99);
+  background: rgb(44, 43, 43);
   color: orange;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transition: all 300ms;
 }
 
 .trivia-menu button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.play {
+  width: 100%!important;
 }
 
 .correct-answer {
@@ -113,7 +117,6 @@ iframe {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-top: 50px;
 }
 
 .trivia-menu .options button {
@@ -131,14 +134,32 @@ iframe {
   font-family: 'PT Sans', sans-serif;
   font-weight: 800;
   color: orange;
-  padding: 0;
+  padding: 50px 0 0 0;
   margin: 0;
 }
 
 .counter {
   color: orange;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
 }
 
 .button-continue {
   display: true;
+}
+
+.answer-correct {
+  color: rgb(3, 187, 3);
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.answer-incorrect {
+  color: rgb(255, 0, 0);
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 10px 0 10px 0;
 }
