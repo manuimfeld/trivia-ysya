@@ -51,6 +51,29 @@
   align-items: center;
 }
 
+.video {
+  width: 500px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr
+}
+
+iframe {
+   grid-row: 1/2;
+   grid-column: 1/2
+}
+
+.video-hide {
+  height: 250px;
+  width: 500px;
+  background: black;
+  border: 1px solid white;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  transition: all 300ms;
+}
+
 .trivia-menu h1 {
   color: white;
 }
@@ -72,18 +95,14 @@
 
 .trivia-menu button:hover {
   transform: scale(1.1);
-  background: greenyellow;
 }
 
-.trivia-menu .video-hide {
-  height: 200px;
-  width: 70%;
-  position: relative;
-  background: black;
-  top: -200px;
-  bottom: 0;
-  border: 1px solid white;
-  transition: all 300ms;
+.correct-answer {
+  background-color: green !important;
+}
+
+.invalid-answer {
+  background-color: red;
 }
 
 .trivia-menu .options {
@@ -114,4 +133,12 @@
   color: orange;
   padding: 0;
   margin: 0;
+}
+
+.counter {
+  color: orange;
+}
+
+.button-continue {
+  display: true;
 }
