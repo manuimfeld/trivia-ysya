@@ -94,7 +94,7 @@ const handleOptionClick = (e, c) => {
     (indexVideo.length < 12) ?
     <div className="trivia-menu">
       <div className="video">
-      <iframe width="500" height="250" src={"https://www.youtube.com/embed/" + video[0].id + "?controls=0&amp;autoplay=1&amp;mute=0&amp;showinfo=0&amp;start=60"} title="YSY A - PASTEL CON NUTELLA (Video Oficial)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      <iframe width="500" height="250" src={"https://www.youtube.com/embed/" + video[0].id + "?rel=0&amp;modestbranding=1&amp;autohide=1&amp;mute=0&amp;showinfo=0&amp;controls=0&amp;autoplay=1&amp;start=30"} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="pastel" frameBorder="0" allowfullscreen ></iframe>
       <div className="video-hide"></div>
       </div>
       <p className='points'>{points}/11</p>
