@@ -10,7 +10,7 @@ const PlayTrivia = () => {
   const [video, setVideo] = useState([(videos[Math.floor(Math.random() * videos.length)])])
   const [points, setPoints] = useState(0)
   const {indexVideo, setIndexVideo} = useContext(IndexVideoContext)
-  const [counter, setCounter] = useState(15)
+  const [counter, setCounter] = useState(10)
   const [areDisabled, setAreDisabled] = useState(false)
   const [answer, setAnswer] = useState(false)
   const {correctAnswers, setCorrectAnswers} = useContext(CorrectAnswersContext)
@@ -72,7 +72,7 @@ const handleOptionClick = (e, c) => {
       e.className = 'answer'
       setAreDisabled(false);
       setPoints(points + 1)
-      setCounter(15)
+      setCounter(10)
       setAnswer(false)
     }, 5000)
   } else {
@@ -94,7 +94,7 @@ const handleOptionClick = (e, c) => {
     (indexVideo.length < 12) ?
     <div className="trivia-menu">
       <div className="video">
-      <iframe width="500" height="250" src={"https://www.youtube.com/embed/" + video[0].id +"?controls=0&autoplay=1&mute=0&showinfo=0"} title="YSY A - PASTEL CON NUTELLA (Video Oficial)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      <iframe width="500" height="250" src={"https://www.youtube.com/embed/" + video[0].id + "?controls=0&amp;autoplay=1&amp;mute=0&amp;showinfo=0&amp;start=60"} title="YSY A - PASTEL CON NUTELLA (Video Oficial)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       <div className="video-hide"></div>
       </div>
       <p className='points'>{points}/11</p>
@@ -115,7 +115,7 @@ const handleOptionClick = (e, c) => {
         <p className='incorrect'>¿No te dio el tiempo o le erraste?</p>
         <button className="button-continue" onClick={() => {
           videoHide.style.background = 'black'
-          setCounter(15);
+          setCounter(10);
           setAreDisabled(false);
           setPoints(points + 1);}}>
           Continuar
