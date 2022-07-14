@@ -10,7 +10,7 @@ const PlayTrivia = () => {
   const [video, setVideo] = useState([(videos[Math.floor(Math.random() * videos.length)])])
   const [points, setPoints] = useState(0)
   const {indexVideo, setIndexVideo} = useContext(IndexVideoContext)
-  const [counter, setCounter] = useState(10)
+  const [counter, setCounter] = useState(15)
   const [areDisabled, setAreDisabled] = useState(false)
   const [answer, setAnswer] = useState(false)
   const {correctAnswers, setCorrectAnswers} = useContext(CorrectAnswersContext)
@@ -58,26 +58,34 @@ const getRandomVideo = () => {
 }
 
 /* funcion para mostrar el video, ocultarlo, sumar puntos y reiniciar useEffect*/
-const handleOptionClick = (e) => {
+const handleOptionClick = (e, c) => {
   videoHide.style.background = 'none'
   console.log(e)
     
-  if (e === video[0].title) {
+  if (c === video[0].title) {
     setAnswer(true)
     setCounter(0)
+    e.className = 'answer-correct'
     setCorrectAnswers(correctAnswers + 1)
     setTimeout(() => {
       videoHide.style.background = 'black'
+      e.className = 'answer'
       setAreDisabled(false);
       setPoints(points + 1)
-      setCounter(10)
+      setCounter(15)
       setAnswer(false)
     }, 5000)
   } else {
+    e.className = 'answer-incorrect'
     setAnswer(false)
     setCounter(0)
   }
 }
+
+/* const handleColor = (e) => {
+  e.className = 'answer answer-correct'
+  console.log(e)
+} */
 
   return (
     <>
@@ -93,7 +101,10 @@ const handleOptionClick = (e) => {
       <div className="options">
             {video[0].options.map((option) => {
               return (
-                <button className='button' key={option.a}  disabled={areDisabled} onClick={(e) => {handleOptionClick(option.a)}}>{option.a}</button>
+                <button className='answer' key={option.a}  disabled={areDisabled} onClick={(e) => {
+                  handleOptionClick(e.target, option.a);
+                  /* handleColor(e.target); */
+                }}>{option.a}</button>
               )
             })}
       </div>
@@ -101,16 +112,16 @@ const handleOptionClick = (e) => {
         <p className='counter'>{counter}</p> )
          : (areDisabled === true && answer !== true) ? (
         <>
-        <p className='answer-incorrect'>Le pifeaste pa :(</p>
+        <p className='incorrect'>¿No te dio el tiempo o le erraste?</p>
         <button className="button-continue" onClick={() => {
           videoHide.style.background = 'black'
-          setCounter(10);
+          setCounter(15);
           setAreDisabled(false);
           setPoints(points + 1);}}>
           Continuar
           </button> </>)
       : (areDisabled === true && answer === true) ? (
-        <p className='answer-correct'>¡Bien! +1</p> )
+        <p className='correct'>¡Bien! +1</p> )
       : null}
     </div> :
     <Navigate to="/puntos" />
