@@ -89,7 +89,6 @@ const handleOptionClick = (e, c) => {
 
   return (
     <>
-    <p>asd</p>
     <div className="home">
     {
     (indexVideo.length < 12) ?
